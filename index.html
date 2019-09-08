@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta name="generator" content="Hugo 0.58.1" />
+		<meta charset="utf-8">
+		<title>秘密花园</title>
+		<meta name="viewport" content="width=device-width">
+		
+			<link href="/index.xml" rel="alternate" type="application/rss+xml" title="秘密花园" />
+			<link href="/index.xml" rel="feed" type="application/rss+xml" title="秘密花园" />
+		
+		<link rel="stylesheet" href="/css/hybrid.css">
+		<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="/css/colors-dark.css">
+
+		
+	</head>
+	<body>
+		<header id="header">
+			<h1><a href="/">秘密花园</a></h1>
+			<p></p>
+		</header>
+
+		<div id="page">
+			<div id="sidebar">
+				<nav>
+	
+</nav>
+
+			</div>
+
+			<div id="content">
+				
+	
+		<article class="post">
+			<h1><a href="/posts/my-first-post/">如何用 hugo 搭建个人博客</a> </h1>
+
+			<div class="post-content">
+				<p> 到github上下载合适的hugo安装包hugo release hugo version 命令查看是否安装成功 hugo new site &lt;网站名&gt; 新建一个网站。如hugo new site 创建一个名为quikstart的网站 为网站添加一个主题
+cd quickstart git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke echo 'theme = &quot;ananke&quot;' &gt;&gt; config.toml  hugo new posts/my-first-post.md 新建一篇文章，所有文章放在content/posts目录下,可以编辑其中的文章， 如需要发布文章，记得把draft: true改为draft: false
+ hugo server -D 预览网站，浏览器访问 http://localhost:1313
+ 网站配置文件是config.toml，如可配置语言选项为languageCode = &ldquo;zh-Hans&rdquo;,网站名字等
+ 运行hugo命令生成静态网页，放在public目录下
+ &lt;小写的用户名&gt;.github.io个人页面。在github上创建一个名为&lt;用户名&gt;.github.io的仓库，将本地的public目录 推送到该仓库即可。
+在网站目录中新建一个.gitignore文件，忽略public目录 cd public git init git add . git commit git remote add &lt;刚刚新建的远程仓库地址&gt; git push -u origin master    </p>
+			</div>
+
+			<p class="meta">Posted on <span class="postdate">08. September 2019</span></p>
+		</article>
+	
+
+	
+
+
+			</div>
+
+			<footer id="footer">
+				<p class="copyright">
+					
+						Powered by <a href="https://gohugo.io/">Hugo</a> and the
+						<a href="https://github.com/bake/solar-theme-hugo">Solar</a>-theme.
+					
+				</p>
+			</footer>
+		</div>
+
+		
+	</body>
+</html>
